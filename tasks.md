@@ -8,12 +8,12 @@ We want to catch the mouse. The mouse is hiding somewhere in the file directory 
 
 ## Task 2
 
-Now we have the code to find the secret name of the mouse, we can look for the mouse. Walk the files in the resources folder under the main folder of the project.
+Now we have the code to find the secret name of the mouse, we can look for the mouse. Walk the files in the resources folder under the main folder of the project. Do this in the method findTheMouse in the AuditionTaskCatchTheMouse class.
 In one of these files you'll find the mouse and a stressed programmer that wants the mouse to move out.
 
 ## Task 3
 
-Now that you have found the mouse, it is time to catch it and release it elsewhere. Of course, we don't want to kill the mouse. So you'll have to do the following things:
+Now that you have found the mouse, it is time to catch it and release it elsewhere. Of course, we don't want to kill the mouse. So you'll have to do the following things in the method animalFriendlyMouseRemoval in the AuditionTaskCatchTheMouse class. :
 * remove the mouse from the file where you found it, you can assume that the mouse is always on it's own line in the file
 * add the mouse to the file src/main/resources/park/farAwayFromMyHouseMouseWonderland.txt
 * change the location of the mouse to the new location
