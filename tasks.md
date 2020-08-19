@@ -1,6 +1,6 @@
 # Catch the mouse
 
-This project is an audition project for Pluralsight. The focus of the project is on basic Java skills. The programmer should be able to deal with strings, loops, files and long to String convertion and other basic Java skills to bring the project to a successful end.
+The focus of the project is on basic Java skills. The programmer should be able to deal with strings, loops, files and long to String convertion and other basic Java skills to bring the project to a successful end.
 
 ## Task 1
 
