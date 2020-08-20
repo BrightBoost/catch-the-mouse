@@ -58,11 +58,11 @@ public class TestAuditionTask {
     @Test
     public void testChangeNameToSecretName() {
         long secretName = AuditionTaskCatchTheMouse.changeNameToSecretName(mouse.getName());
-        assertEquals(13931125, secretName, "The numbers don't match, if it is 0, please implement the method changeNameToSecretName");
         assertNotEquals(13 + 9 + 3 + 11 + 25, secretName, "You've added the numbers instead of concatenating them");
         assertNotEquals(13, secretName, "It seems that your method can only handle capitals");
         assertNotEquals(931125, secretName, "It seems that your method can only handle lower case");
         assertNotEquals(12821024, secretName, "You've started with A is 0, you're a true Java developer, but please start with A is 1");
+        assertEquals(13931125, secretName, "The numbers don't match, if it is 0, please implement the method changeNameToSecretName");
     }
 
     @Test
