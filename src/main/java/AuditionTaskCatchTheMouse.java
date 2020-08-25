@@ -10,7 +10,6 @@ public class AuditionTaskCatchTheMouse {
     //I know it's a bit random, but please help me with this mouse
 
     public static long changeNameToSecretName(String name) {
-
         //write here the code to get the secret name, replace the letters of the mouse name letter by letter.
         //the letter should be replaced with the corresponding number of that letter in the alphabet
 
@@ -18,12 +17,12 @@ public class AuditionTaskCatchTheMouse {
         return 0;
     }
 
-    public static Path findTheMouse(Mouse mouse){
+    public static Path findTheMouse(Mouse mouse) {
         //walk through the folders in the resources to find the file that contains the mouse
         return Paths.get("the path to the file that contains the mouse");
     }
 
-    public static Path animalFriendlyMouseRemoval(Mouse mouse){
+    public static Path animalFriendlyMouseRemoval(Mouse mouse) {
         //write the code here to modify the file that contains the mouse to contain no mouse
 
         //we don't kill the poor thing
@@ -38,7 +37,7 @@ public class AuditionTaskCatchTheMouse {
     }
 
     public static void main(String[] args) {
-        //micky is being born
+        //micky is born
         Mouse micky = new Mouse();
         micky.setName("Micky");
 
